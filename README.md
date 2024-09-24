@@ -4,7 +4,7 @@ The project is aimed to build machine learning models to predict diabetes in pat
 
 ## Data
 The data used include features such as; 
-* age
+* age - important factor as diabetes is more commonly diagnosed in older adults.
 * gender
 * body mass index(BMI) - Measure of body fat based on weight and height.
 * hypertension - Medical condition in which blood preassure in the alteries is persistently elevated. 
