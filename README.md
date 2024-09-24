@@ -9,6 +9,6 @@ The data used include features such as;
 * body mass index(BMI) - Measure of body fat based on weight and height.
 * hypertension - Medical condition in which blood preassure in the alteries is persistently elevated. 
 * heart disease 
-* smoking history
+* smoking history - Smoking history is considered a risk factor for diabetes.
 * HbA1c - Measure of person's average blood sugar level over past 2-3 months.
 * glucose level - Amount of glucose in the bloodstream at a given time.
