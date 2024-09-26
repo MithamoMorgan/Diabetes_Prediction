@@ -1,9 +1,11 @@
 # Import necessary libraries
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from xgboost import XGBClassifier
 import joblib
@@ -31,21 +33,50 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= 0.3, random
 scaler = StandardScaler()
 
 # Apply the transformation to the training and test data
-X = scaler.fit_transform(X)
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test) # USe transorm() on X_test to avoid data leakage
 
-# create model intance
-xgb_model = XGBClassifier(random_state =42)
+# create model intances
 
-# fit the data
-xgb_model.fit(X_train, y_train)
+models = {'LogisticRegression': LogisticRegression(random_state= 42),
+          'DecisionTreeClassifier': DecisionTreeClassifier(random_state= 42),
+          'RandomForestClassifier': RandomForestClassifier(random_state= 42),
+          'GradientBoostingClassifier': GradientBoostingClassifier(random_state= 42),
+          'XGBClassifier': XGBClassifier()}
 
-# predict
-xgb_y_pred = xgb_model.predict(X_test)
+# Create an empty list to store metrics and empty dict to store predictions
+metrics = []
+predictions = {}
 
-# Evaluate the model
-conf_matrix = confusion_matrix(y_test, xgb_y_pred)
-class_report = classification_report(y_test, xgb_y_pred)
+# Loop through the models, fit them and store metrics in the DataFrame
+for name, model in models.items():
+    model.fit(X_train, y_train)
+    y_pred = model.predict(X_test)
 
-# Print the metrics
-print("Confusion matrix:\n", conf_matrix)
-print("Classification report:\n", class_report)
+    # Store predictions for later use (in confusion matrix loop)
+    predictions[name] = y_pred
+
+    accuracy = accuracy_score(y_test, y_pred)
+    precision = precision_score(y_test, y_pred)
+    recall = recall_score(y_test, y_pred)
+    f1 = f1_score(y_test, y_pred)
+
+    # Append the metrics to the metrics_df
+    metrics.append({'Model': name,
+                       'Accuracy': accuracy,
+                       'Precision': precision,
+                       'Recall': recall,
+                       'F1-Score': f1})
+    
+# Convert the list to a DataFrame
+metrics_df = pd.DataFrame(metrics)
+print(metrics_df)
+
+# Create confusion matrix for each model
+for name, y_pred in predictions.items():  # Ensures consistency(using same predictions for metrics and confusion matrix)
+    conf_matrix = confusion_matrix(y_test, y_pred)
+    print(name+"'s confusion Matrix:\n", conf_matrix)
+
+# Save the model
+print("saving the model...")
+joblib.dump(XGBClassifier, 'gbc.pkl')
