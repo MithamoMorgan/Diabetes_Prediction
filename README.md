@@ -12,3 +12,6 @@ The data used include features such as:
 * smoking history - Smoking history is considered a risk factor for diabetes.
 * HbA1c - Measure of person's average blood sugar level over past 2-3 months.
 * glucose level - Amount of glucose in the bloodstream at a given time.
+
+## App
+This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis
