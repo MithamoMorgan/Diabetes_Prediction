@@ -8,8 +8,8 @@ Diabetes Prediction Project
 3. [Dataset](#Dataset)</br>
 3. [Problem Statement](#Problem-Statement)</br>
 4. [Data Preprocessing](#Data-Preprocessing)</br>
-5. [Modeling](Modeling)</br>
-7. Evaluation Metrics</br>
+5. [Modeling](#Modeling)</br>
+7. [Evaluation Metrics](#Evaluation-Metrics)</br>
 8. Results</br>
 9. Conclusion</br>
 10. Future Work</br>
@@ -74,6 +74,15 @@ I split the dataset into training and testing sets using the `train_test_split` 
 4. Gradient Boosting Classifier
 5. XGBoost Classifier
 
+## Evaluation Metrics
+
+The metrics used to evaluate the model performance were:
+
+1. Accuracy
+2. Precision
+3. Recall (focused on recall since the priority was detecting positive cases)
+4. F1-Score
+5. ROC-AUC
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
