@@ -3,8 +3,9 @@ Diabetes Prediction Project
 
 ## Table of Contents
 
-1. Project Overview</br>
-2. Dataset</br>
+1. Overview</br>
+2. Tools</br>
+3. Dataset</br>
 3. Problem Statement</br>
 4. Data Preprocessing</br>
 5. Feature Engineering</br>
@@ -18,7 +19,8 @@ Diabetes Prediction Project
 
 ## Overview
 
-The project is aimed to build machine learning models to predict diabetes in patients based on their medical history and demographic information. This can be useful for healthcare professionals in identifying patients who may be at risk of developing diabetes and in developing personalized treatment plans. 
+The project is aimed to build machine learning models to predict diabetes in patients based on their medical history and demographic information. This can be useful for healthcare professionals in identifying patients who may be at risk of developing diabetes and in developing personalized treatment plans.
+
 ## Tools:
 * **Pandas:** Data manipulation and analysis.
 * **Numpy:** For numerical computation.
