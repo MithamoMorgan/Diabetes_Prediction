@@ -10,7 +10,7 @@ Diabetes Prediction Project
 4. [Data Preprocessing](#Data-Preprocessing)</br>
 5. [Modeling](#Modeling)</br>
 7. [Evaluation Metrics](#Evaluation-Metrics)</br>
-8. Results</br>
+8. [Results](Results)</br>
 9. Conclusion</br>
 10. Future Work</br>
 11. How to Use</br>
@@ -83,6 +83,14 @@ The metrics used to evaluate the model performance were:
 3. Recall (focused on recall since the priority was detecting positive cases)
 4. F1-Score
 5. ROC-AUC
+
+## Results
+
+Summarize the results of the models:
+
+Best Model: Identify which model performed the best in terms of recall, accuracy, and overall performance.
+
+Model Comparison: Provide a comparison table or brief summary showing how each model performed based on the evaluation metrics.
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
