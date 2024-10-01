@@ -26,7 +26,7 @@ The data used include features such as:
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.
-![](https://github.com/user-attachments/assets/21a4cc11-f82a-40f4-beec-834e67430810)
+![](https://github.com/MithamoMorgan/Diabetes_Prediction/blob/master/Images/diabets_app.png)
 
 
 Work in Progress👷‍♂️⚙️🚧...
