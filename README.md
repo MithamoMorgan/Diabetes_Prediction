@@ -6,7 +6,7 @@ Diabetes Prediction Project
 1. [Overview](#Overview)</br>
 2. [Tools](#Tools)</br>
 3. [Dataset](#Dataset)</br>
-3. Problem Statement</br>
+3. [Problem Statement](#ProblemStatement)</br>
 4. Data Preprocessing</br>
 5. Feature Engineering</br>
 6. Modeling</br>
@@ -45,9 +45,8 @@ The data used include features such as:
 
 ## Problem Statement
 
-**Objective:** To classify individuals as diabetic or non-diabetic using machine learning algorithms based on their medical history and demographic information.
-
-**Type:** Binary classification problem.
+The objective is to classify individuals as diabetic or non-diabetic using machine learning algorithms based on their medical history and demographic information.
+This is a Binary Classification problem.
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
