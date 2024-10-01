@@ -13,7 +13,7 @@ Diabetes Prediction Project
 8. [Results](#Results)</br>
 9. [Conclusion](#Conclusion)</br>
 10. [Future Work](#Future-Work)</br>
-11. How to Use</br>
+11. [How to Use](#How-to-use)</br>
 12. Requirements</br>
 
 ## Overview
@@ -101,7 +101,27 @@ potential improvements or extensions of the project:
 
 **More Data:** Collecting additional data to improve model generalization.
 
-**Model Improvements:** Trying advanced techniques like Neural Networks or AutoML for further improvement
+**Model Improvements:** Trying advanced techniques like Neural Networks or AutoML for further improvement.
+
+## How to Use
+
+You can run this project using these easy steps.
+
+1. Clone the repository using:
+
+`git clone https://github.com/MithamoMorgan/Diabetes_Prediction.git`
+
+
+2. Install the necessary dependencies (listed in th requirements.txt file).
+
+
+3. Run the Jupyter Notebook or Streamlit app :
+   
+* To launch the Streamlit app, use the following command in your terminal:
+
+`streamlit run app.py`
+
+* Alternatively, you can run your Jupyter Notebook directly in Visual Studio Code, which supports interactive notebook execution.
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
