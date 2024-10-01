@@ -6,7 +6,7 @@ Diabetes Prediction Project
 1. [Overview](#Overview)</br>
 2. [Tools](#Tools)</br>
 3. [Dataset](#Dataset)</br>
-3. [Problem Statement](#ProblemStatement)</br>
+3. [Problem Statement](#Problem_Statement)</br>
 4. Data Preprocessing</br>
 5. Feature Engineering</br>
 6. Modeling</br>
