@@ -117,6 +117,8 @@ The metrics used to evaluate the model performance were:
 * For precision, the Gradient Boosting Classifier also excels with the highest score.
 * For overall performance measured by the F1 score, the XGBoost Classifier is the top performer.
 
+Comparison table:
+
 | Name                       | Accuracy Score | Precision Score | Recall Score | F1 Score  |
 |----------------------------|----------------|-----------------|--------------|-----------|
 | Logistic Regression        | 0.958778       | 0.866808        | 0.636399     | 0.733945  |
