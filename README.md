@@ -15,6 +15,7 @@ Diabetes Prediction Project
 10. [Future Work](#Future-Work)</br>
 11. [How to Use](#How-to-use)</br>
 12. [Requirements](#Requirements)</br>
+13. [App Overview](#App-Overview)
 
 ## Overview
 
@@ -135,7 +136,7 @@ You can run this project using these easy steps.
 
 Refer the requirements text file for automated Installation: It allows users to install all necessary packages quickly using a single command (`pip install -r requirements.txt`), making setup much easier.
 
-## App
+## App Overview
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
 *i:*
 ![](https://github.com/MithamoMorgan/Diabetes_Prediction/blob/master/Images/diabets_app.png)
