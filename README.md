@@ -9,7 +9,7 @@ The project is aimed to build machine learning models to predict diabetes in pat
 * **XGBoost:** For gradient boosting.
 * **Streamlit:** Model deployment.
 * **Jupyter Notebook:** Documenting process results.
-* **VsCode:** Development environment.
+* **VSCode:** Development environment.
 ## Data
 The data used include features such as: 
 * age - important factor as diabetes is more commonly diagnosed in older adults.
