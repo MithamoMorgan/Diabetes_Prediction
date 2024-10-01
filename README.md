@@ -12,7 +12,7 @@ Diabetes Prediction Project
 7. [Evaluation Metrics](#Evaluation-Metrics)</br>
 8. [Results](#Results)</br>
 9. [Conclusion](#Conclusion)</br>
-10. Future Work</br>
+10. [Future Work](#Future-Work)</br>
 11. How to Use</br>
 12. Requirements</br>
 
@@ -94,6 +94,14 @@ The metrics used to evaluate the model performance were:
 ## Conclusion
 
 The Decision Tree is the best choice for predicting diabetes since recall is the priority, as it achieves the highest recall score. However, if a balance of performance metrics is needed, the XGBoost Classifier remains a strong contender.
+
+## Future Work
+
+potential improvements or extensions of the project:
+
+More Data: Collecting additional data to improve model generalization.
+
+Model Improvements: Trying advanced techniques like Neural Networks or AutoML for further improvement
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
