@@ -43,6 +43,12 @@ The data used include features such as:
 * HbA1c - Measure of person's average blood sugar level over past 2-3 months.
 * glucose level - Amount of glucose in the bloodstream at a given time.
 
+## Problem Statement
+
+**Objective:** To classify individuals as diabetic or non-diabetic using machine learning algorithms based on their medical history and demographic information.
+
+**Type:** Binary classification problem.
+
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
 *i:*
