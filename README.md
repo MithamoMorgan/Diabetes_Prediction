@@ -60,14 +60,35 @@ df.drop_duplicates()
 **Feature Scaling:**
 
 I applied the `StandardScaler` to standardize the continuous features, ensuring a mean of 0 and a standard deviation of 1. First, I fitted the scaler on the training set and transformed it. Then, I used the same scaling on the testing set to maintain consistency, which helps improve the model's performance and robustness.
+```python
+    # initialize the StandardScaler
+    scaler = StandardScaler()
 
+    # Fitting the scaler on the training data
+    X_train = scaler.fit_transform(X_train)
+
+    # Apply the transformations from training set on the testing set
+    X_test = scaler.transform(X_test)
+```
 **Encoding:** 
 
 I utilized the `LabelEncoder` from the `sklearn.preprocessing` module to convert the categorical variables into a format suitable for machine learning algorithms.
+```python
+# initialize LabelEncoder instance
+label_encoder = LabelEncoder()
+
+# transofrm each cateorical variable
+categorical_variables = df.select_dtypes(include = 'O')
+for column in categorical_variables:
+    df[column] = label_encoder.fit_transform(df[column])
+```
 
 **Train-Test Split:**
 
 I split the dataset into training and testing sets using the `train_test_split` function from `sklearn`. I allocated 70% of the data for training and 30% for testing, while setting a random state for reproducibility. This approach allows us to train the model on one subset and evaluate its performance on an unseen subset, enhancing the model's reliability.
+```python
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.3, random_state = 42)
+````
 
 ## Modeling
 
