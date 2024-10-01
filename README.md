@@ -169,7 +169,7 @@ You can run this project using these easy steps.
 * streamlit</br>
 * jupyter
 
-Refer the requirements text file for automated Installation: It allows users to install all necessary packages quickly using a single command (`pip install -r requirements.txt`), making setup much easier.
+Refer the requirements text file for automated Installation. It allows users to install all necessary packages quickly using a single command (`pip install -r requirements.txt`), making setup much easier.
 
 ## App Overview
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
