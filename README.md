@@ -6,12 +6,12 @@ Diabetes Prediction Project
 1. [Overview](#Overview)</br>
 2. [Tools](#Tools)</br>
 3. [Dataset](#Dataset)</br>
-3. [Problem Statement](#Problem-Statement)</br>
-4. [Data Preprocessing](#Data-Preprocessing)</br>
-5. [Modeling](#Modeling)</br>
+4. [Problem Statement](#Problem-Statement)</br>
+5. [Data Preprocessing](#Data-Preprocessing)</br>
+6. [Modeling](#Modeling)</br>
 7. [Evaluation Metrics](#Evaluation-Metrics)</br>
-8. [Results](Results)</br>
-9. Conclusion</br>
+8. [Results](#Results)</br>
+9. [Conclusion](#Conclusion)</br>
 10. Future Work</br>
 11. How to Use</br>
 12. Requirements</br>
@@ -86,11 +86,14 @@ The metrics used to evaluate the model performance were:
 
 ## Results
 
-Summarize the results of the models:
+* For accuracy, the Gradient Boosting Classifier is the best model.
+* For recall, the Decision Tree performs the best.
+* For precision, the Gradient Boosting Classifier also excels with the highest score.
+* For overall performance measured by the F1 score, the XGBoost Classifier is the top performer.
 
-Best Model: Identify which model performed the best in terms of recall, accuracy, and overall performance.
+## Conclusion
 
-Model Comparison: Provide a comparison table or brief summary showing how each model performed based on the evaluation metrics.
+The Decision Tree is the best choice for predicting diabetes since recall is the priority, as it achieves the highest recall score. However, if a balance of performance metrics is needed, the XGBoost Classifier remains a strong contender.
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
