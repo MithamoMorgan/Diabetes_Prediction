@@ -4,8 +4,8 @@ Diabetes Prediction Project
 ## Table of Contents
 
 1. [Overview](#Overview)</br>
-2. Tools</br>
-3. Dataset</br>
+2. [Tools](#Tools)</br>
+3. [Dataset](#Dataset)</br>
 3. Problem Statement</br>
 4. Data Preprocessing</br>
 5. Feature Engineering</br>
@@ -30,7 +30,7 @@ The project is aimed to build machine learning models to predict diabetes in pat
 * **Streamlit:** Model deployment.
 * **Jupyter Notebook:** Documenting process results.
 * **VSCode:** Development environment.
-## Data
+## Dataset
 I downloaded the data used in this project from kaggle. Here is the [link](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
 The data used include features such as: 
