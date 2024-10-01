@@ -3,7 +3,7 @@ Diabetes Prediction Project
 
 ## Table of Contents
 
-1. Overview</br>
+1. [Overview](#Overview)</br>
 2. Tools</br>
 3. Dataset</br>
 3. Problem Statement</br>
