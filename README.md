@@ -12,7 +12,7 @@ The project is aimed to build machine learning models to predict diabetes in pat
 * **Jupyter Notebook:** Documenting process results.
 * **VSCode:** Development environment.
 ## Data
-I downloaded the data used from kaggle. Here is the [link](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
+I downloaded the data used in this project from kaggle. Here is the [link](https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset)
 
 The data used include features such as: 
 * age - important factor as diabetes is more commonly diagnosed in older adults.
