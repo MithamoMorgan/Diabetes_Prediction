@@ -1,4 +1,21 @@
 ![](https://github.com/MithamoMorgan/Diabetes_Prediction/blob/master/Images/stop_diabetes.jpg)
+Diabetes Prediction Project
+
+## Table of Contents
+
+1. Project Overview</br>
+2. Dataset</br>
+3. Problem Statement</br>
+4. Data Preprocessing</br>
+5. Feature Engineering</br>
+6. Modeling</br>
+7. Evaluation Metrics</br>
+8. Results</br>
+9. Conclusion</br>
+10. Future Work</br>
+11. How to Use</br>
+12. Requirements</br>
+
 ## Overview
 
 The project is aimed to build machine learning models to predict diabetes in patients based on their medical history and demographic information. This can be useful for healthcare professionals in identifying patients who may be at risk of developing diabetes and in developing personalized treatment plans. 
