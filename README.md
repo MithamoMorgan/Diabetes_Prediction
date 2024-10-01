@@ -148,7 +148,7 @@ You can run this project using these easy steps.
    `git clone https://github.com/MithamoMorgan/Diabetes_Prediction.git`
 
 
-2. Install the necessary dependencies (listed in th requirements.txt fil).
+2. Install the necessary dependencies (listed in th requirements.txt file).
 
 
 3. Run the Jupyter Notebook or Streamlit app :
