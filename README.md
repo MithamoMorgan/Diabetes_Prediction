@@ -3,7 +3,7 @@
 The project is aimed to build machine learning models to predict diabetes in patients based on their medical history and demographic information. This can be useful for healthcare professionals in identifying patients who may be at risk of developing diabetes and in developing personalized treatment plans. 
 
 ## Data
-The data used include features such as; 
+The data used include features such as: 
 * age - important factor as diabetes is more commonly diagnosed in older adults.
 * gender - Can have an impact on individual's susceptibility to diabetes.
 * body mass index(BMI) - Measure of body fat based on weight and height.
@@ -12,3 +12,11 @@ The data used include features such as;
 * smoking history - Smoking history is considered a risk factor for diabetes.
 * HbA1c - Measure of person's average blood sugar level over past 2-3 months.
 * glucose level - Amount of glucose in the bloodstream at a given time.
+
+## App
+This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.
+![](https://github.com/user-attachments/assets/21a4cc11-f82a-40f4-beec-834e67430810)
+
+
+Work in Progress👷‍♂️⚙️🚧...
+
