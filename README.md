@@ -117,6 +117,13 @@ The metrics used to evaluate the model performance were:
 * For precision, the Gradient Boosting Classifier also excels with the highest score.
 * For overall performance measured by the F1 score, the XGBoost Classifier is the top performer.
 
+	Name	Accuracy_score	Precision_score	recall_score	F1_score
+0	LogisticRegression	0.958778	0.866808	0.636399	0.733945
+1	DecisionTree	0.950250	0.712110	0.743888	0.727652
+2	RandomForest	0.969248	0.947564	0.694218	0.801344
+3	GradientBoostingClassifier	0.971398	0.986667	0.689173	0.811515
+4	XGBClassifier	0.970982	0.962274	0.702755	0.812290
+
 ## Conclusion
 
 The Decision Tree is the best choice for predicting diabetes since recall is the priority, as it achieves the highest recall score. However, if a balance of performance metrics is needed, the XGBoost Classifier remains a strong contender.
