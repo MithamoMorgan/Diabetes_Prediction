@@ -7,7 +7,7 @@ Diabetes Prediction Project
 2. [Tools](#Tools)</br>
 3. [Dataset](#Dataset)</br>
 3. [Problem Statement](#Problem-Statement)</br>
-4. Data Preprocessing</br>
+4. [Data Preprocessing](#Data-Preprocessing)</br>
 5. Feature Engineering</br>
 6. Modeling</br>
 7. Evaluation Metrics</br>
@@ -47,6 +47,25 @@ The data used include features such as:
 
 The objective is to classify individuals as diabetic or non-diabetic using machine learning algorithms based on their medical history and demographic information.
 This is a Binary Classification problem.
+
+## Data Preprocessing
+
+**Handling Duplicates:**
+The dataset had 3,854 duplicates, which were handled by dropping.
+
+**Feature Scaling:**
+
+I applied the `StandardScaler` to standardize the continuous features, ensuring a mean of 0 and a standard deviation of 1. First, I fitted the scaler on the training set and transformed it. Then, I used the same scaling on the testing set to maintain consistency, which helps improve the model's performance and robustness.
+
+**Encoding:** 
+
+I utilized the `LabelEncoder` from the `sklearn.preprocessing` module to convert the categorical variables into a format suitable for machine learning algorithms.
+
+**Train-Test Split:**
+
+I split the dataset into training and testing sets using the `train_test_split` function from `sklearn`. I allocated 70% of the data for training and 30% for testing, while setting a random state for reproducibility. This approach allows us to train the model on one subset and evaluate its performance on an unseen subset, enhancing the model's reliability.
+
+
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
