@@ -8,8 +8,7 @@ Diabetes Prediction Project
 3. [Dataset](#Dataset)</br>
 3. [Problem Statement](#Problem-Statement)</br>
 4. [Data Preprocessing](#Data-Preprocessing)</br>
-5. Feature Engineering</br>
-6. Modeling</br>
+5. [Modeling](Modeling)</br>
 7. Evaluation Metrics</br>
 8. Results</br>
 9. Conclusion</br>
@@ -65,6 +64,15 @@ I utilized the `LabelEncoder` from the `sklearn.preprocessing` module to convert
 
 I split the dataset into training and testing sets using the `train_test_split` function from `sklearn`. I allocated 70% of the data for training and 30% for testing, while setting a random state for reproducibility. This approach allows us to train the model on one subset and evaluate its performance on an unseen subset, enhancing the model's reliability.
 
+Modeling
+
+**Models Tested:**
+
+1. Logistic Regression
+2. Decision Tree Classifier
+3. Random Forest Classifier
+4. Gradient Boosting Classifier
+5. XGBoost Classifier
 
 
 ## App
