@@ -109,7 +109,7 @@ You can run this project using these easy steps.
 
 1. Clone the repository using:
 
-`git clone https://github.com/MithamoMorgan/Diabetes_Prediction.git`
+   `git clone https://github.com/MithamoMorgan/Diabetes_Prediction.git`
 
 
 2. Install the necessary dependencies (listed in th requirements.txt file).
@@ -117,11 +117,11 @@ You can run this project using these easy steps.
 
 3. Run the Jupyter Notebook or Streamlit app :
    
-* To launch the Streamlit app, use the following command in your terminal:
+   * To launch the Streamlit app, use the following command in your terminal:
 
-`streamlit run app.py`
+      `streamlit run app.py`
 
-* Alternatively, you can run your Jupyter Notebook directly in Visual Studio Code, which supports interactive notebook execution.
+   * Alternatively, you can run your Jupyter Notebook directly in Visual Studio Code, which supports interactive notebook execution.
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
