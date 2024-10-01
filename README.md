@@ -99,9 +99,9 @@ The Decision Tree is the best choice for predicting diabetes since recall is the
 
 potential improvements or extensions of the project:
 
-More Data: Collecting additional data to improve model generalization.
+**More Data:** Collecting additional data to improve model generalization.
 
-Model Improvements: Trying advanced techniques like Neural Networks or AutoML for further improvement
+**Model Improvements:** Trying advanced techniques like Neural Networks or AutoML for further improvement
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
