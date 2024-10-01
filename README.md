@@ -53,6 +53,10 @@ This is a Binary Classification problem.
 **Handling Duplicates:**
 The dataset had 3,854 duplicates, which were handled by dropping.
 
+```python
+df.drop_duplicates()
+```
+
 **Feature Scaling:**
 
 I applied the `StandardScaler` to standardize the continuous features, ensuring a mean of 0 and a standard deviation of 1. First, I fitted the scaler on the training set and transformed it. Then, I used the same scaling on the testing set to maintain consistency, which helps improve the model's performance and robustness.
