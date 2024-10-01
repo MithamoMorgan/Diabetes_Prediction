@@ -6,7 +6,10 @@ The project is aimed to build machine learning models to predict diabetes in pat
 * **Numpy:** For numerical computation.
 * **Matplotlib & seaborn:** Visualization
 * **Scikit-Learn:** Implementing various machine learning algorithms.
-* **XGBoost:** For gradient boosting
+* **XGBoost:** For gradient boosting.
+* **Streamlit:** Model deployment.
+* **Jupyter Notebook:** Documenting process results.
+* **VsCode:** Development environment.
 ## Data
 The data used include features such as: 
 * age - important factor as diabetes is more commonly diagnosed in older adults.
