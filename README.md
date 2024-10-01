@@ -64,7 +64,7 @@ I utilized the `LabelEncoder` from the `sklearn.preprocessing` module to convert
 
 I split the dataset into training and testing sets using the `train_test_split` function from `sklearn`. I allocated 70% of the data for training and 30% for testing, while setting a random state for reproducibility. This approach allows us to train the model on one subset and evaluate its performance on an unseen subset, enhancing the model's reliability.
 
-Modeling
+## Modeling
 
 **Models Tested:**
 
