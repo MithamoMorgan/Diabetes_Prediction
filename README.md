@@ -14,7 +14,7 @@ Diabetes Prediction Project
 9. [Conclusion](#Conclusion)</br>
 10. [Future Work](#Future-Work)</br>
 11. [How to Use](#How-to-use)</br>
-12. Requirements</br>
+12. [Requirements](#Requirements)</br>
 
 ## Overview
 
@@ -112,7 +112,7 @@ You can run this project using these easy steps.
    `git clone https://github.com/MithamoMorgan/Diabetes_Prediction.git`
 
 
-2. Install the necessary dependencies (listed in th requirements.txt file).
+2. Install the necessary dependencies (listed in th requirements.txt fil).
 
 
 3. Run the Jupyter Notebook or Streamlit app :
@@ -122,6 +122,18 @@ You can run this project using these easy steps.
       `streamlit run app.py`
 
    * Alternatively, you can run your Jupyter Notebook directly in Visual Studio Code, which supports interactive notebook execution.
+  
+## Requirements
+* pandas</br>
+* numpy</br>
+* matplotlib</br>
+* seaborn</br>
+* scikit-learn</br>
+* xgboost</br>
+* streamlit</br>
+* jupyter
+
+Refer the requirements text file for automated Installation: It allows users to install all necessary packages quickly using a single command (`pip install -r requirements.txt`), making setup much easier.
 
 ## App
 This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
