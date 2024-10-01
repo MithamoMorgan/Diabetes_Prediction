@@ -25,7 +25,7 @@ The data used include features such as:
 * glucose level - Amount of glucose in the bloodstream at a given time.
 
 ## App
-This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.
+This app can assist medical professionals in making a diagnosis but should not be used as a substitute for a professional diagnosis.</br>
 *i:*
 ![](https://github.com/MithamoMorgan/Diabetes_Prediction/blob/master/Images/diabets_app.png)
 *ii*
