@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 
 # Load the saved model
-model = joblib.load('random_forest_model.pkl')
+model = joblib.load('best_model.pkl')
 
 # Load the saved scaler
 scaler = joblib.load('scaler.pkl')
