@@ -108,8 +108,7 @@ The metrics used to evaluate the model performance were:
 2. Precision
 3. Recall (focused on recall since the priority was detecting positive cases)
 4. F1-Score
-5. ROC-AUC
-
+   
 ## Results
 
 * For accuracy, the Gradient Boosting Classifier is the best model.
@@ -117,7 +116,7 @@ The metrics used to evaluate the model performance were:
 * For precision, the Gradient Boosting Classifier also excels with the highest score.
 * For overall performance measured by the F1 score, the XGBoost Classifier is the top performer.
 
-Comparison table:
+**Comparison table:**
 
 | Name                       | Accuracy Score | Precision Score | Recall Score | F1 Score  |
 |----------------------------|----------------|-----------------|--------------|-----------|
@@ -127,9 +126,13 @@ Comparison table:
 | Gradient Boosting Classifier| 0.971398      | 0.986667        | 0.689173     | 0.811515  |
 | XGBoost Classifier         | 0.970982       | 0.962274        | 0.702755     | 0.812290  |
 
+**Best Model for Streamlit App:**
+
+In the context of diabetes prediction, the XGBoost Classifier was selected as the best model to predict user input during the creation of the Streamlit app. Its high performance across all metrics—accuracy, precision, recall, and F1 score—makes it a robust choice for identifying individuals at risk of diabetes.
+
 ## Conclusion
 
-The Decision Tree is the best choice for predicting diabetes since recall is the priority, as it achieves the highest recall score. However, if a balance of performance metrics is needed, the XGBoost Classifier remains a strong contender.
+While the Decision Tree achieves the highest recall score, the XGBoost Classifier was selected for the Streamlit app due to its top performance across all evaluation metrics. This choice ensures a reliable and effective tool for healthcare professionals to identify patients who may be at risk of developing diabetes.
 
 ## Future Work
 
