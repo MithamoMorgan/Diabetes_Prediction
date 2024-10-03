@@ -35,7 +35,7 @@ def split_data(X, y):
 
     return train_test_split(X, y, test_size = 0.3, random_state = 42)
 
-def scale_data(X_test, X_train):
+def scale_data(X_train, X_test):
     """Fit the scaler on the training data and apply the transformations from training
     set on the testing set."""
 
@@ -72,7 +72,7 @@ def evaluate_the_models(models, predictions, y_test):
     and save the model with the highest recall"""
 
     metrics = []
-    highest_recall = 0
+    highest_f1 = 0
     best_model = None
 
     for name, y_pred in predictions.items():
@@ -92,9 +92,9 @@ def evaluate_the_models(models, predictions, y_test):
                         "recall_score" : recall,
                         "F1_score" : f1})
         
-        # Track the best model based on recall
-        if recall > highest_recall:
-            highest_recall = recall
+        # Track the best model based on f1_score
+        if f1 > highest_f1:
+            highest_f1 = f1
             best_model = models[name]
 
     metrics_df = pd.DataFrame(metrics)
@@ -112,10 +112,10 @@ def main():
     X, y = define_features_target_variable(encoded_df)
 
     # Split the data
-    X_test, X_train, y_test, y_train = split_data(X, y)
+    X_train, X_test, y_train, y_test = split_data(X, y)
 
     # Scale the data
-    X_train_scaled, X_test_scaled, scaler = scale_data(X_test, X_train)
+    X_train_scaled, X_test_scaled, scaler = scale_data(X_train, X_test)
 
     # Create model instance
     models = initialize_models()
