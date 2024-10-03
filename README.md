@@ -1,5 +1,5 @@
 ![](https://github.com/MithamoMorgan/Diabetes_Prediction/blob/master/Images/stop_diabetes.jpg)
-Diabetes Prediction Project
+# Diabetes Prediction
 
 ## Table of Contents
 
