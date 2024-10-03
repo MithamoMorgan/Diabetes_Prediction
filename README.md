@@ -108,8 +108,7 @@ The metrics used to evaluate the model performance were:
 2. Precision
 3. Recall (focused on recall since the priority was detecting positive cases)
 4. F1-Score
-5. ROC-AUC
-
+   
 ## Results
 
 * For accuracy, the Gradient Boosting Classifier is the best model.
