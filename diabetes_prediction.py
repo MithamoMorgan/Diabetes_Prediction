@@ -109,7 +109,7 @@ def main():
     encoded_df = encode_categorical_features(df)
 
     # Define features and target variable
-    X, y = define_features_target_variable(df)
+    X, y = define_features_target_variable(encoded_df)
 
     # Split the data
     X_test, X_train, y_test, y_train = split_data(X, y)
